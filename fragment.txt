@@ -1,0 +1,4 @@
+if(up&&!down&&right&&!left) {y--; x++;};
+if(up&&!down&&!right&&left) {y--; x--;};
+if(!up&&down&&right&&!left) {x++; y++;};
+if(!up&&down&&!right&&left) {x--; y++;};
